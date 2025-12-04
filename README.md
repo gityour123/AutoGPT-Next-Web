@@ -22,7 +22,6 @@ One-Click to deploy well-designed AutoGPT-Next-Web web UI on Vercel.
 
 ![cover](https://user-images.githubusercontent.com/20209191/234480921-0a8f754e-1110-47bf-9c40-25e3daed2c05.png)
 
-
 ## Features
 
 1. Free one-click deployment with Vercel in 1 minute
@@ -30,20 +29,21 @@ One-Click to deploy well-designed AutoGPT-Next-Web web UI on Vercel.
 3. UI designed to match AgentGPT, responsive design, and support for dark mode
 4. Have your own domain? Even better, after binding, you can quickly access it anywhere without barriers
 5. Support access code control, only you or trusted individuals can use the website
+6. Up-to-date documentation and GitBook tutorials for fast onboarding
 
 ## Roadmap
 
-- [x] 1. Add support for Docker and Docker Compose 
-- [x] 2. Add support for Endpoint URL 
-- [ ] 3. Add support for Azure OpenAI API 
-- [ ] 4. Optimize the display of running results for easier viewing 
-- [ ] 5. Add support for WeChat login 
-
+- [x] 1. Add support for Docker and Docker Compose
+- [x] 2. Add support for Endpoint URL
+- [ ] 3. Add support for Azure OpenAI API
+- [ ] 4. Optimize the display of running results for easier viewing
+- [ ] 5. Add support for WeChat login
 
 ## Get Started
 
-[Click me to view the detailed tutorial](https://autogpt-next-web.gitbook.io/autogpt-next-web/) 
-1. Prepare the OpenAI  API Key;
+[Click me to view the detailed tutorial](https://autogpt-next-web.gitbook.io/autogpt-next-web/)
+
+1. Prepare the OpenAI API Key;
 2. Click the deploy button and follow the prompts
 3. We support access control capabilities, see the tutorial above for a detailed tutorial
 
@@ -67,6 +67,7 @@ A convenient setup script is provided to help you get started.
 ### Docker-compose
 
 Using `docker-compose` deploy
+
 ```bash
 ./setup.sh --docker-compose
 ```
